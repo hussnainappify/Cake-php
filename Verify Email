@@ -1,1 +1,11 @@
 https://mailtrap.io/blog/laravel-email-verification/
+
+
+Add in homecontroller file 
+ public function __construct()
+    {
+        $this->middleware(['auth','verified']);
+    }
+
+
+In Model File   use Illuminate\Contracts\Auth\MustVerifyEmail;  and    in class User extends Authenticatable  implements MustVerifyEmail
