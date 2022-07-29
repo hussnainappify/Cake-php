@@ -1,0 +1,9 @@
+email 
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=email
+MAIL_PASSWORD=password
+MAIL_ENCRYPTION=ssl
+MAIL_FROM_ADDRESS=second or dummy email
+MAIL_FROM_NAME="${APP_NAME}"
